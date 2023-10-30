@@ -1,0 +1,81 @@
+section .table{
+    margin: 20px 0 ;
+}
+
+section .table .titulo,
+section .table .content{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--cc);
+    justify-content: space-between;
+}
+
+section .table .content:nth-child(2n+2){
+    background-color: var(--wt);
+}
+
+h2{
+    text-align: center;
+}
+
+section .btn{
+    display: flex;
+}
+section  button{
+    width: 100%;
+    padding: 5px;
+    height: 27px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    background-color: var(--vm);
+    color: #fff;
+}
+
+section button:hover{
+    background-color: var(--vma);
+}
+
+section .btn button:nth-child(1){
+    background-color: var(--vd);
+}
+
+section .btn button:nth-child(1):hover{
+    background-color: var(--vda);
+}
+
+
+.nome{
+    width: 20%;
+    overflow-x: scroll;
+    text-align: justify;
+}
+
+.nome::-webkit-scrollbar {
+    width: 3px;       
+    height: 3px;
+}
+  
+.nome::-webkit-scrollbar-track {
+    background: var(--cc);   
+}
+  
+.nome::-webkit-scrollbar-thumb {
+    background-color: var(--bl);
+    border-radius: 20px; 
+}
+
+.idade,
+.pg,
+.btn,
+.sal
+{
+    width: 15%;
+    text-align: justify;
+}
+
+
+.sal{
+    text-align: center;
+}

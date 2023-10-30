@@ -1,0 +1,110 @@
+header{
+    background-color: var(--wt);
+    display: flex;
+    padding: 0;
+    color: var(--bc);
+    justify-content: space-between;
+}
+
+header .ld1{
+    width: 60%;
+    height: 100vh;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F000%2F136%2F330%2Foriginal%2Ffree-technology-vector-illustration.jpg&f=1&nofb=1&ipt=5d95ee0b373382898768b884ed133a6d61b88cc565dcd75671f4cb1683dddd0d&ipo=images);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header .ld2{
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+
+header .ld2 .logo{
+    width: 100px;
+    margin: 0 auto;
+}
+
+header .ld2 .logo img{
+    width: 100%;
+}
+
+header .ld2 h2{
+    margin: 25px;
+}
+
+header .ld2 form{
+    width: 100%;
+}
+
+header .ld2 form .w100{
+    width: 100%;
+    margin: 40px 0;
+}
+
+header .w100 P,
+header .lemb{
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify ;
+}
+
+header .w100 input{
+    width: 80%;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    padding: 5px;
+    font-size: 16px;
+    color: var(mm);
+    border-right: none;
+    border-bottom: 1px solid var(--mm);    
+    transition: 1s;
+}
+
+header .w100 input:focus{
+    transition: 1s;
+    width:90%;
+    border-color: var(--bc);
+}
+
+header .w100s{
+    width: 80%;
+    margin: 40px auto;
+}
+
+header .w100s input{
+    width:100%;
+    padding: 5px;
+    font-size: 18px;
+    background-color: var(--bl);
+    color: var(--wt);
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+header .w100s input:hover{
+    background-color: var(--bla);
+}
+
+@media screen and (max-width:800px){
+    header .ld1{
+        display: none;
+    }   
+    header .ld2,
+    header .w100 input:focus{
+        width:100%;
+    }
+    h2{
+        font-size: 20px;
+    }
+    header .w100s,
+    header .w100 P,
+    header .lemb,
+    header .w100 input{
+        width: 90%;
+    }
+
+}

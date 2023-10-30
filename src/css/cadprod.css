@@ -1,0 +1,73 @@
+section .cadastra{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--vd);
+    height: 300px;
+    cursor: pointer;
+    background-color: var(--cc);
+}   
+
+section .cadCont{
+    display: flex;
+    align-items: center;
+    margin: 40px 0 0 0;
+}
+
+section .cadCamp{
+    padding: 20px;
+    width: 100%;
+}
+
+section form{
+    width: 100%;
+    padding: 20px;
+    background-color: var(--cc);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+section .w50{
+    width: 50%;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+section .w100{
+    width: 100%;
+    margin: 5px 0;
+    padding: 0 5px;
+}
+
+section .w100s{
+    width: 100%;
+    margin: 20px 0;
+}
+
+section .w100s input{
+    border: none;
+    background-color: var(--vd);
+    cursor: pointer;
+    color: var(--wt);
+    font-size: 18px;
+}
+
+section .w100s input:hover{
+    background-color: var(--vda);
+}
+
+
+section input,
+section textarea,
+section select{
+    width: 100%;
+    padding: 5px;
+}
+
+section input[name="foto"]{
+    padding: 5px;
+    width: 50%;
+    border: 1px solid var(--bc);
+}

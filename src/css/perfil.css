@@ -1,0 +1,83 @@
+section .perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section .perfil .text{
+    text-align: center;
+}
+
+section .image{
+    width: 100px;
+    height: 100px;
+    border-radius: 555px;
+}
+
+section .image img{
+    width: 100%;
+}
+
+section .my{
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .infos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section .infowraper{
+    width: calc(100% / 3);
+    text-align: center;
+    padding: 20px;
+}
+
+section .listwraper{
+    margin: 40px 0;
+}
+
+.btn button{
+    padding: 5px ;
+    background-color: var(--bl);
+    color: var(--wt);
+    border: none;
+    cursor:pointer;
+}
+
+section .listwraper .photo,
+section .listwraper .pt2{
+    display: flex;
+}
+section .listwraper .photo{
+    justify-content: space-between;
+}
+
+section .listwraper .image{
+    width: 50px;
+    height: 50px;
+    border-radius: 555px;
+}
+
+section .listwraper .image img{
+    width: 100%;
+}
+
+section .listwraper .nameuser{
+    padding: 0 15px;
+}
+
+section .listwraper .nameuser h3{
+    font-size: 16px;
+}
+
+section .listwraper .nameuser p{
+    font-size: 12px;
+    color: var(--mm);
+}

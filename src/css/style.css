@@ -1,0 +1,133 @@
+:root{
+    --wt: #fff;
+    --cc: #ddd;
+    --mm: #666;
+    --bc: #000;
+    --vd: #10ff10;
+    --vm: #ff1010;
+    --vda: #017901;
+    --vma: #7a0000;
+    --bl: #2b87f0;
+    --bla: #164377;
+    --ye: #fbff10;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;       
+}
+  
+body::-webkit-scrollbar-track {
+    background: black;   
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bl);
+    border-radius: 20px; 
+    border: 1px solid var(--bc);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container { 
+    width: 100%;
+    margin: 0;
+    padding: 0 4%;
+}
+
+header {
+    width: 100%;
+    padding: 5px 0;
+    background-color: var(--bc);
+    color: var(--wt);
+    position: fixed;
+}
+
+header > .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo h2{
+    font-weight: lighter;
+}
+
+section{
+    padding: 60px 0 0 0;
+}
+
+/*menu*/
+
+nav.menu ul{
+    position: absolute;
+    background-color: var(--bc);
+    width: 0;
+    height: 100vh;
+    left: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.aparece{ 
+    width: 350px !important;
+    padding: 10px 20px !important;
+    transition: 1s;
+}
+
+nav.menu .fecha{
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav.menu li { 
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    list-style: none;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--wt);
+}
+
+nav.menu h2 { 
+    cursor: pointer;
+}
+
+nav.menu li a { 
+    color: var(--wt);
+    text-decoration: none;
+}
+
+button a{
+    text-decoration: none;
+    color: var(--wt);
+}
+
+footer{
+    width: 100%;
+    padding: 20px 0;
+    border-top: 1px solid rgb(0, 24, 85);
+    text-align: center;
+    color: rgb(82, 82, 82);  
+}
+
+footer span a i{
+    color: rgb(0, 24, 85);  
+}
+
+footer span a{
+    color: rgb(0, 24, 85);  
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+footer p{
+    padding: 5px 0;
+}
